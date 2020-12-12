@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/honor-watch/static/css/main.9be98fcb.chunk.css",
-    "main.js": "/honor-watch/static/js/main.663aaa22.chunk.js",
-    "main.js.map": "/honor-watch/static/js/main.663aaa22.chunk.js.map",
+    "main.css": "/honor-watch/static/css/main.92200d94.chunk.css",
+    "main.js": "/honor-watch/static/js/main.dae38388.chunk.js",
+    "main.js.map": "/honor-watch/static/js/main.dae38388.chunk.js.map",
     "runtime-main.js": "/honor-watch/static/js/runtime-main.529d7d2d.js",
     "runtime-main.js.map": "/honor-watch/static/js/runtime-main.529d7d2d.js.map",
-    "static/js/2.7f869182.chunk.js": "/honor-watch/static/js/2.7f869182.chunk.js",
-    "static/js/2.7f869182.chunk.js.map": "/honor-watch/static/js/2.7f869182.chunk.js.map",
+    "static/js/2.0463f30d.chunk.js": "/honor-watch/static/js/2.0463f30d.chunk.js",
+    "static/js/2.0463f30d.chunk.js.map": "/honor-watch/static/js/2.0463f30d.chunk.js.map",
     "index.html": "/honor-watch/index.html",
-    "static/css/main.9be98fcb.chunk.css.map": "/honor-watch/static/css/main.9be98fcb.chunk.css.map",
-    "static/js/2.7f869182.chunk.js.LICENSE.txt": "/honor-watch/static/js/2.7f869182.chunk.js.LICENSE.txt",
+    "static/css/main.92200d94.chunk.css.map": "/honor-watch/static/css/main.92200d94.chunk.css.map",
+    "static/js/2.0463f30d.chunk.js.LICENSE.txt": "/honor-watch/static/js/2.0463f30d.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/honor-watch/static/media/Mark-Regular.968a3cb9.woff2",
     "static/media/blanco 1.a22865db.png": "/honor-watch/static/media/blanco 1.a22865db.png",
     "static/media/dark 1 (2).2d31b091.png": "/honor-watch/static/media/dark 1 (2).2d31b091.png",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.529d7d2d.js",
-    "static/js/2.7f869182.chunk.js",
-    "static/css/main.9be98fcb.chunk.css",
-    "static/js/main.663aaa22.chunk.js"
+    "static/js/2.0463f30d.chunk.js",
+    "static/css/main.92200d94.chunk.css",
+    "static/js/main.dae38388.chunk.js"
   ]
 }
