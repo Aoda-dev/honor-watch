@@ -1,0 +1,73 @@
+.Navbar {
+  padding: 90px 50px;
+  position: fixed;
+  transform: translateX(-100%);
+  left: 0;
+  top: 0;
+  width: 21%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.Navbar__close {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+
+.Navbar__close__icon {
+  width: 18px;
+}
+
+.Navbar__brandName {
+  position: absolute;
+  width: 178px;
+  height: 35px;
+
+  bottom: 25px;
+  right: 0px;
+  fill: #ffffff;
+}
+
+.Navbar__brandName path {
+  fill: #ffffff;
+}
+
+.Navbar__title {
+  font-family: 'FF Mark';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 61px;
+  color: #ffffff;
+}
+
+.Navbar__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Navbar__smartPhone::after {
+  content: '';
+  display: block;
+  width: 0px;
+  background-color: #fff;
+  height: 2px;
+}
+
+.Navbar__home::after {
+  content: '';
+  display: block;
+  width: 0px;
+  background-color: #fff;
+  height: 2px;
+}
+
+.Navbar__store::after {
+  content: '';
+  display: block;
+  width: 0px;
+  background-color: #fff;
+  height: 2px;
+}

@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'FF Mark';
+  src: local('FF Mark Regular'), local('FF-Mark-Regular'), url('../../fonts/Mark-Regular.woff2') format('woff2'),
+    url('../../fonts/Mark-Regular.woff') format('woff'), url('../../fonts/Mark-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header__logo {
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+}
+
+.Header__brandName {
+  cursor: pointer;
+  width: 178px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Header__nav {
+  flex-basis: 33%;
+  margin-right: 50px;
+}
+
+.Header__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'FF Mark';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.Header__link {
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+}
+
+.Header__button {
+  width: 100px;
+  background-color: #f29494;
+  color: #ffffff;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+.Header__button__link {
+  text-decoration: none;
+  color: #ffffff;
+}

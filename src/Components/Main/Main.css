@@ -1,0 +1,72 @@
+@import url(//db.onlinewebfonts.com/c/49406bd70f319809254b2661e03dfb76?family=MarkW01-Heavy);
+
+.Main {
+  display: flex;
+}
+
+.Main__left {
+  position: relative;
+  padding: 80px 60px;
+}
+
+.Main__left__title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.Main__left__text {
+  font-family: 'FF Mark';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 70px;
+
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+
+  color: #ef9c9c;
+}
+
+.Main__left__secondText {
+  max-width: 400px;
+  font-family: 'FF Mark';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+
+  color: #868686;
+}
+
+.Main__card {
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  bottom: 0;
+  right: 15%;
+}
+
+.Main__right {
+  position: relative;
+}
+
+.Main__right__img {
+  cursor: pointer;
+  padding: 0 20px;
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+}
+
+.Main__right__arrow {
+  cursor: pointer;
+  position: absolute;
+  right: -85px;
+  top: 50%;
+  transform: translateY(-50%);
+}
