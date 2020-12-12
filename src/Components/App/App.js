@@ -8,13 +8,20 @@ import white from '../../assets/blanco 1.png'
 
 import './App.css'
 
+import { darkMode, whiteMode } from './AppAnimation'
 export const Context = createContext()
 
 const App = () => {
   const [showNav, setShowNav] = useState(false)
+  const [mode, setMode] = useState(false)
 
   const toggleNav = () => {
     setShowNav((showNav) => !showNav)
+  }
+
+  const changeDarkMode = () => {
+    setMode((mode) => !mode)
+    mode ? whiteMode() : darkMode()
   }
 
   const watchList = [
@@ -27,7 +34,7 @@ const App = () => {
     <div className="App">
       <Context.Provider value={{ watchList, toggleNav }}>
         <Home />
-        {showNav ? <Navbar onClick={toggleNav} /> : null}
+        {showNav ? <Navbar mode={mode} changeDarkMode={changeDarkMode} onClick={toggleNav} /> : null}
       </Context.Provider>
     </div>
   )

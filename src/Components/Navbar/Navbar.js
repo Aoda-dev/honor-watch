@@ -5,7 +5,7 @@ import { hideAniamtion, borderMouseLeave, borderMouseMove, brandAnim } from './N
 
 import './Navbar.css'
 
-const Navbar = ({ onClick }) => {
+const Navbar = ({ onClick, changeDarkMode, mode }) => {
   useEffect(() => {
     brandAnim('.Navbar__brandName')
   }, [])
@@ -66,6 +66,18 @@ const Navbar = ({ onClick }) => {
           Store
         </a>
       </p>
+
+      <div className="Navbar__switch">
+        <label className="Navbar__switch__label">
+          <input
+            className="Navbar__switch__input round"
+            type="checkbox"
+            checked={mode}
+            onChange={changeDarkMode.bind(this)}
+          />
+          <span className="Navbar__switch__slider round"></span>
+        </label>
+      </div>
 
       <BrandName className="Navbar__brandName" />
     </div>
