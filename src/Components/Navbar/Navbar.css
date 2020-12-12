@@ -54,6 +54,7 @@
   width: 0px;
   background-color: #fff;
   height: 2px;
+  transition: width 0.4s ease;
 }
 
 .Navbar__home::after {
@@ -62,6 +63,7 @@
   width: 0px;
   background-color: #fff;
   height: 2px;
+  transition: width 0.4s ease;
 }
 
 .Navbar__store::after {
@@ -70,4 +72,17 @@
   width: 0px;
   background-color: #fff;
   height: 2px;
+  transition: width 0.4s ease;
+}
+
+.Navbar__store.added::after {
+  width: 70%;
+}
+
+.Navbar__home.added::after {
+  width: 70%;
+}
+
+.Navbar__smartPhone.added::after {
+  width: 70%;
 }
